@@ -6,7 +6,7 @@ const Register = () => {
     <div className="h-screen flex items-center justify-center bg-gradient-to-r from-black to-[#2D3436] ">
       <div className=" pt-12 pb-5 px-16 rounded-xl flex flex-col  bg-black/30">
         <h1 className="text-white text-3xl font-bold">Let's Get Started</h1>
-        <p className="text-white text-md pb-10">Create Your Account</p>
+        <p className="text-gray-300 text-md pb-10">Create Your Account</p>
         <div className="flex flex-col items-center gap-6">
           <form className="flex flex-col gap-4  items-center ">
             <input
