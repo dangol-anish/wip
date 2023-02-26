@@ -15,7 +15,7 @@ const Search = () => {
           alt=""
         />
         <div>
-          <span>Anish</span>
+          <span className="">Anish</span>
         </div>
       </div>
     </div>
