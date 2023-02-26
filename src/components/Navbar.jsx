@@ -14,10 +14,13 @@ const Navbar = () => {
         <span>Anish</span>
       </div>
       <div>
-        <button id="btn" className="hidden ">
+        <button id="btn" className="hidden">
           Logout
         </button>
-        <label className="cursor-pointer hover:text-zinc-500 " htmlFor="btn">
+        <label
+          className="cursor-pointer hover:text-zinc-500 hidden md:block"
+          htmlFor="btn"
+        >
           <AiOutlineLogout size={20} />
         </label>
       </div>

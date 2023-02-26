@@ -8,14 +8,14 @@ const Search = () => {
         className=" bg-zinc-800 w-[90%] rounded-lg px-2 py-2 focus:outline-none "
         placeholder="Search user..."
       />
-      <div className="flex p-4 w-full gap-3  border-b border-zinc-800 ">
+      <div className="flex justify-center md:justify-start md:gap-2  px-4 py-3 w-full  border-b border-zinc-800 ">
         <img
           className="h-7 w-7 object-cover rounded-full"
           src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"
           alt=""
         />
         <div>
-          <span className="">Anish</span>
+          <span className="hidden md:block">Anish</span>
         </div>
       </div>
     </div>
