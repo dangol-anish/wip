@@ -1,7 +1,16 @@
 import React from "react";
+import Sidebar from "../components/Sidebar";
+import Chat from "../components/Chat";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div className="bg-gradient-to-r from-[#013220] to-[#29383d] h-screen flex justify-center items-center">
+      <div className="text-white rounded-xl border border-red-50 h-[90%] w-[80%] flex overflow-hidden">
+        <Sidebar />
+        <Chat />
+      </div>
+    </div>
+  );
 };
 
 export default Home;
