@@ -8,7 +8,7 @@ const Input = () => {
       <input
         className="w-[70%] bg-zinc-800 rounded-lg px-2 py-2 focus:outline-none"
         type="text"
-        placeholder="Type a message..."
+        placeholder="Type a message... "
       />
       <div className="flex items-center gap-3 pl-2 cursor-pointer">
         <ImAttachment size={20} />

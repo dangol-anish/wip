@@ -8,7 +8,10 @@ const Register = () => {
         <h1 className="text-white text-3xl font-bold">Let's Get Started</h1>
         <p className="text-gray-300 text-md pb-10">Create Your Account</p>
         <div className="flex flex-col items-center gap-6">
-          <form className="flex flex-col gap-4  items-center ">
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col gap-4  items-center "
+          >
             <input
               className="bg-zinc-800 p-4 rounded-xl text-white focus:outline-none "
               type="text"
