@@ -2,16 +2,14 @@ import React from "react";
 import { RxAvatar } from "react-icons/rx";
 
 const Register = () => {
+  console.log(process.env);
   return (
     <div className="h-screen flex items-center justify-center bg-gradient-to-r from-[#013220] to-[#29383d] ">
       <div className=" pt-12 pb-5 px-16 rounded-xl flex flex-col  bg-black/60">
         <h1 className="text-white text-3xl font-bold">Let's Get Started</h1>
         <p className="text-gray-300 text-md pb-10">Create Your Account</p>
         <div className="flex flex-col items-center gap-6">
-          <form
-            onSubmit={handleSubmit}
-            className="flex flex-col gap-4  items-center "
-          >
+          <form className="flex flex-col gap-4  items-center ">
             <input
               className="bg-zinc-800 p-4 rounded-xl text-white focus:outline-none "
               type="text"
